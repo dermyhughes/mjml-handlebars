@@ -7,7 +7,7 @@
 
         <mj-divider border-color="#F45E43"></mj-divider>
 
-        <mj-text font-size="20px" color="#F45E43" align="center" font-family="helvetica">I'm an Include!</mj-text>
+        <mj-text font-size="24px" color="#F45E43" align="center" font-family="helvetica">{{message}}</mj-text>
 
       </mj-column>
     </mj-section>
