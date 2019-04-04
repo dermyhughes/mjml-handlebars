@@ -2,7 +2,7 @@ const hb = require('handlebars');
 const mjml2html = require('mjml');
 const fs = require('fs');
 
-const fileIn = 'template'; // Put the name of your MJML template here (without the .mjml extension)
+const fileIn = 'index'; // Put the name of your MJML template here (without the .mjml extension)
 let mjml = (fs.readFileSync(`${fileIn}.mjml`)).toString();
 
 let data = {
